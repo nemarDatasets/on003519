@@ -1,0 +1,29 @@
+{
+  "version": "2.0",
+  "dataset_id": "on003519",
+  "source": "openneuro",
+  "source_id": "ds003519",
+  "title": "EEG: Visual Working Memory + Cabergoline Challenge",
+  "authors": {
+    "James F Cavanagh": {},
+    "Michael J Frank": {},
+    "James Broadway": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds003519.v1.1.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.1.1",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ]
+}
