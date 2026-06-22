@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "EEG: Visual Working Memory + Cabergoline Challenge",
+  "description": "This dataset comprises EEG recordings from a double-blind, placebo-controlled pharmacological study examining the effects of cabergoline on visual working memory. Thirty healthy participants were enrolled, with 27 completing both sessions of a visual working memory task with cabergoline (1.25 mg) or placebo administered in counterbalanced order. The dataset includes raw EEG data, behavioral measures, and cognitive assessments. The EEG data remain unpublished, providing a novel resource for investigating dopaminergic modulation of working memory processes.",
+  "methods_description": "EEG data were collected during a visual working memory task in a double-blind, crossover design with cabergoline (1.25 mg) or placebo administration. Thirty healthy participants were enrolled with 27 completing both sessions. Data were collected circa 2012-2013 at the Laboratory for Neural Computation & Cognition at Brown University.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -9,6 +11,34 @@
     "Michael J Frank": {},
     "James Broadway": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "working memory",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D057566"
+    },
+    {
+      "term": "cabergoline"
+    },
+    {
+      "term": "dopamine"
+    },
+    {
+      "term": "pharmacological challenge"
+    },
+    {
+      "term": "double-blind study"
+    },
+    {
+      "term": "crossover design"
+    },
+    {
+      "term": "dopamine agonist"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds003519.v1.1.0",
@@ -36,12 +66,12 @@
       "relation_type": "IsSupplementTo"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "9.6 GB (120 files)"
   ],
   "formats": [
     ".fdt",
@@ -52,38 +82,8 @@
     ".md",
     ".set",
     ".tsv",
-    ".xlsx"
-  ],
-  "description": "This dataset comprises EEG recordings from 27 healthy participants engaged in a visual working memory task during a double-blind, placebo-controlled pharmacological challenge with cabergoline (1.25 mg). Collected circa 2012-2013, the study employed a within-subject design with two sessions to investigate the neural correlates of working memory and dopaminergic modulation. Behavioral data from this sample have been previously published (10.3758/s13415-018-0584-6), and the same sample was used in a related published study (10.1038/ncomms6394). The EEG data remain unpublished and represent a novel resource for investigating electrophysiological mechanisms of cognitive control.",
-  "methods_description": "Double-blind, placebo-controlled drug study with 27 participants (30 enrolled, 3 dropouts) completing two sessions. Participants performed a visual working memory task while EEG was recorded. Drug administration: Cabergoline 1.25 mg. Data collected circa 2012-2013 at the Laboratory for Neural Computation & Cognition at Brown University.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "visual working memory"
-    },
-    {
-      "term": "cabergoline"
-    },
-    {
-      "term": "dopamine"
-    },
-    {
-      "term": "dopaminergic modulation"
-    },
-    {
-      "term": "cognitive control"
-    },
-    {
-      "term": "double-blind design"
-    },
-    {
-      "term": "electrophysiology"
-    },
-    {
-      "term": "neural correlates"
-    }
+    ".xlsx",
+    ".yml"
   ],
   "source_hash": "2c5b523f2b559107f8f730b8c0f9523e103751ca22430da646324fcbbff9543b"
 }
