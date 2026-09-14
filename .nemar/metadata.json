@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "EEG: Visual Working Memory + Cabergoline Challenge",
-  "description": "This dataset comprises EEG recordings from a double-blind, placebo-controlled pharmacological study examining the effects of cabergoline on visual working memory. Thirty healthy participants were enrolled, with 27 completing both sessions of a visual working memory task with cabergoline (1.25 mg) or placebo administered in counterbalanced order. The dataset includes raw EEG data, behavioral measures, and cognitive assessments. The EEG data remain unpublished, providing a novel resource for investigating dopaminergic modulation of working memory processes.",
+  "description": "This dataset contains EEG recordings from a visual working memory task administered under a double-blind, placebo-controlled Cabergoline (1.25 mg) drug challenge. Thirty healthy participants (27 completers) were tested across two sessions, with drug order counterbalanced. The data were collected circa 2012-2013 at the Laboratory for Neural Computation & Cognition at Brown University, with the EEG data previously unpublished.",
   "methods_description": "EEG data were collected during a visual working memory task in a double-blind, crossover design with cabergoline (1.25 mg) or placebo administration. Thirty healthy participants were enrolled with 27 completing both sessions. Data were collected circa 2012-2013 at the Laboratory for Neural Computation & Cognition at Brown University.",
   "license": "CC0",
   "dataset_type": "raw",
@@ -16,42 +16,25 @@
       "term": "EEG"
     },
     {
-      "term": "working memory",
+      "term": "working memory"
+    },
+    {
+      "term": "Dopamine Agonists",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D057566"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D018491"
     },
     {
-      "term": "cabergoline"
-    },
-    {
-      "term": "dopamine"
-    },
-    {
-      "term": "pharmacological challenge"
+      "term": "Cabergoline",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000077465"
     },
     {
       "term": "double-blind study"
-    },
-    {
-      "term": "crossover design"
-    },
-    {
-      "term": "dopamine agonist"
     }
   ],
   "related_identifiers": [
     {
-      "identifier": "10.18112/openneuro.ds003519.v1.1.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
       "identifier": "https://github.com/nemarDatasets/on003519",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003519",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -63,7 +46,17 @@
     {
       "identifier": "10.1038/ncomms6394",
       "identifier_type": "DOI",
-      "relation_type": "IsSupplementTo"
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds003519.v1.1.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on003519",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_specific": "EEG Dataset",
@@ -71,7 +64,7 @@
     "eeg"
   ],
   "sizes": [
-    "9.6 GB (120 files)"
+    "8.96 GB (120 files)"
   ],
   "formats": [
     ".fdt",
@@ -85,5 +78,5 @@
     ".xlsx",
     ".yml"
   ],
-  "source_hash": "2c5b523f2b559107f8f730b8c0f9523e103751ca22430da646324fcbbff9543b"
+  "source_hash": "386b192a8814be9b2d6b45a45a91557562a60e74409fe26758fcb192e870421d"
 }
