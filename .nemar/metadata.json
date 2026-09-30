@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "EEG: Visual Working Memory + Cabergoline Challenge",
-  "description": "This dataset contains EEG recordings from a visual working memory task administered under a double-blind, placebo-controlled Cabergoline (1.25 mg) drug challenge. Thirty healthy participants (27 completers) were tested across two sessions, with drug order counterbalanced. The data were collected circa 2012-2013 at the Laboratory for Neural Computation & Cognition at Brown University, with the EEG data previously unpublished.",
-  "methods_description": "EEG data were collected during a visual working memory task in a double-blind, crossover design with cabergoline (1.25 mg) or placebo administration. Thirty healthy participants were enrolled with 27 completing both sessions. Data were collected circa 2012-2013 at the Laboratory for Neural Computation & Cognition at Brown University.",
+  "description": "EEG recordings from a double-blind, placebo-controlled pharmacological study in which healthy participants performed a visual working memory task after receiving the dopamine D2 agonist cabergoline (1.25 mg). Each of 27 participants completed two sessions, one with drug and one with placebo. The EEG data have not been previously published, while the behavioral data appeared in an earlier paper.",
+  "methods_description": "Thirty healthy participants (27 after 3 dropouts) took part in a double-blind, two-session drug study with cabergoline 1.25 mg. Session order was counterbalanced and recorded in the Sess1_Drug column. The visual working memory task was programmed in Matlab. Data were collected around 2012-2013 at the Laboratory for Neural Computation & Cognition at Brown University. Additional metadata, including operation span (OSpan), are in a spreadsheet in the code folder.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -16,12 +16,7 @@
       "term": "EEG"
     },
     {
-      "term": "working memory"
-    },
-    {
-      "term": "Dopamine Agonists",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D018491"
+      "term": "visual working memory"
     },
     {
       "term": "Cabergoline",
@@ -29,7 +24,10 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D000077465"
     },
     {
-      "term": "double-blind study"
+      "term": "dopamine D2 agonist"
+    },
+    {
+      "term": "pharmacology"
     }
   ],
   "related_identifiers": [
